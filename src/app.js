@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 
 app.get("/test", async (request, response) => {
-    const unObjet = { name: "Biere Nutella" };
+    const unObjet = { name: "bouquet de fleur" };
     return response.json({ code: "200", message: "Un message", data:  unObjet});
 });
 
