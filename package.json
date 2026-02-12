@@ -1,0 +1,24 @@
+{
+  "name": "tp_bdd",
+  "version": "1.0.0",
+  "description": "Projet final de Base de données",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasMolendi/TP_BDD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasMolendi/TP_BDD/issues"
+  },
+  "homepage": "https://github.com/LucasMolendi/TP_BDD#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.17.0",
+    "sequelize": "^6.37.7"
+  }
+}
