@@ -1,4 +1,3 @@
-const mongoose = require("mongoose");
 module.exports = {
     connect_mongoose : () => {
         // ----------------------------------------------------------
@@ -11,11 +10,10 @@ module.exports = {
             console.log(`Connecté(e) à la base de données MongoDB`);
         });
 
-        // Si erreur bdd
+        // si  erreur de DB
         mongoose.connection.on('error', (err) => {
-            console.log(`error u are not connected to the database`);
+            console.error(`Erreur de la base données : ${err.message}`);
         });
-
         // Enclencher à la connexion
         mongoose.connect('mongodb://127.0.0.1:27017/articles');
     }

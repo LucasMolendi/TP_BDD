@@ -1,27 +1,27 @@
-const { DataTypes } = require('sequelize')
-const sequelize = require('./database')
+const { DataTypes } = require("sequelize");
+const sequelize = require("./database");
 
-const article = sequelize.define('article', {
+const Article = sequelize.define("Article", {
     id: {
         type: DataTypes.STRING,
         primaryKey: true
     },
     title: {
         type: DataTypes.STRING,
-        allowNull: false,
+        allowNull: false
     },
-    desc: {
+    descr: {
         type: DataTypes.STRING,
-        allowNull: false,
+        allowNull: true
     },
     author: {
         type: DataTypes.STRING,
-        allowNull: false,
+        allowNull: true
     },
-    imgPath:{
+    imgPath: {
         type: DataTypes.STRING,
-        allowNull: false,
+        allowNull: true
     }
-})
+});
 
-module.exports = article
+module.exports = Article;
