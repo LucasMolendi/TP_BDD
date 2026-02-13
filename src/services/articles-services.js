@@ -1,38 +1,48 @@
 const DAOFactory = require('../dao/dao-factory');
-const { makeService } = require('./service-helper');
-const { v4: uuidv4 } = require('uuid');
+const {makeService} = require('./service-helper');
+const {v4: uuidv4} = require('uuid');
 
 module.exports = {
     createArticle: async (articleData) => {
         const generateId = uuidv4();
-        // Vérifie bien que les clés (title, desc, auth...)
-        // sont les mêmes que dans ton Body Postman
         let article = {
-            id: generateId,
+            uid: generateId, // On utilise uid comme clé unique
             title: articleData.title,
             desc: articleData.desc,
-            auth: articleData.auth, // <--- Si tu envoies "author" sur Postman, mets .author ici
+            auth: articleData.auth,
             imgPath: articleData.imgPath
         };
 
         const newArticle = await DAOFactory.getDAOArticle().insert(article);
-        return makeService(200, "Article créé avec succès", newArticle);
+        return makeService(201, "Article créé avec succès", newArticle);
     },
 
-    modifiedArticle: async (id, articleData) => {
-        // Correction du "00 et ajout de l'ID
-        const changedArticle = await DAOFactory.getDAOArticle().update(id, articleData);
+    // Correction : On utilise bien 'uid' reçu en paramètre
+    updateArticle: async (uid, articleData) => {
+        const changedArticle = await DAOFactory.getDAOArticle().update(uid, articleData);
+        if (!changedArticle) return makeService(404, "Article introuvable");
         return makeService(200, "Article modifié avec succès", changedArticle);
+    },
+    getById: async (uid) => {
+        // On demande au DAO de chercher spécifiquement par l'uid (le UUID)
+        const article = await DAOFactory.getDAOArticle().selectById(uid);
+
+        if (!article) {
+            return makeService(404, "Désolé, cet article n'existe pas !");
+        }
+
+        return makeService(200, "Article trouvé !", article);
     },
 
     getAll: async () => {
         const allArticles = await DAOFactory.getDAOArticle().selectAll();
-        // Utilise bien le nombre 200 (pas de guillemets)
         return makeService(200, "Articles récupérés avec succès !", allArticles);
     },
 
-    delete: async (id) => {
-        const deleteArticle = await DAOFactory.getDAOArticle().delete(id);
-        return makeService(200, "Article supprimé avec succès !", deleteArticle);
+    // Correction : On remplace 'id' par 'uid' pour correspondre à l'argument
+    deleteArticle: async (uid) => {
+        const deleted = await DAOFactory.getDAOArticle().delete(uid);
+        if (!deleted) return makeService(404, "Article introuvable");
+        return makeService(200, "Article supprimé avec succès !", deleted);
     }
 };

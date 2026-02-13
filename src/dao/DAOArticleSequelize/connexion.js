@@ -1,5 +1,5 @@
 module.exports = {
-    connect_sequelize : () => {
+    connect_sequelize: () => {
         // Se connecter à la base
         const sequelize = require('./database');
 

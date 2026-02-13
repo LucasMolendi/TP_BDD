@@ -18,20 +18,20 @@ class DAOArticleSequelize extends IDAOArticle {
         return await Article.findAll();
     }
 
-    async selectById(id) {
+    async selectById(uid) {
         // Selectionne l'article avec comme id (clé primaire) l'id de l'url
-        return await Article.findByPk(id);
+        return await Article.findByPk(uid);
     }
 
-    async update(id, article) {
+    async update(uid, article) {
         // mets à jour l'article de l'id avec le contenu "article" - correspond au body et le retourne une fois remplacé
-        await Article.update(article, { where: { id } });
-        return this.selectById(id);
+        await Article.update(article, {where: {uid}});
+        return this.selectById(uid);
     }
 
-    async delete(id) {
+    async delete(uid) {
         // supprime l'article avec l'id en question
-        return await Article.destroy({ where: { id } });
+        return await Article.destroy({where: {uid}});
     }
 }
 

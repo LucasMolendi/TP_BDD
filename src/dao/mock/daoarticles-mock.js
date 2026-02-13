@@ -45,7 +45,7 @@ class DAOArticleMock extends IDAOArticle {
         const index = DB_Articles.findIndex(a => a.id === id);
         // Sécurité : on vérifie si l'article existe avant de modifier
         if (index !== -1) {
-            DB_Articles[index] = { ...article, id }; // On s'assure que l'ID reste le bon
+            DB_Articles[index] = {...article, id}; // On s'assure que l'ID reste le bon
             return DB_Articles[index];
         }
         return null;

@@ -20,7 +20,7 @@ router.post("/articles", async (req, res) => {
 /** Route pour récupérer UN article --------------------- ko */
 router.get("/articles/:id", async (request, response) => {
     /** getById dans article-service, prend l'id et affiche l'article lié*/
-    const serviceResponse = await ArticleService.getById(request.params.id);
+    const serviceResponse = await ArticleService.getById(request.params.uid);
 
     return response.json(serviceResponse);
 });
