@@ -18,9 +18,11 @@ class DAOArticleSequelize extends IDAOArticle {
         return await Article.findAll();
     }
 
-    async selectById(uid) {
-        // Selectionne l'article avec comme id (clé primaire) l'id de l'url
-        return await Article.findByPk(uid);
+    async selectById(uidReceived) {
+
+        return await Article.findOne({
+            where: { uid: uidReceived }
+        });
     }
 
     async update(uid, article) {

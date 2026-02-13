@@ -7,9 +7,7 @@ module.exports = {
             .then(() => {
                 // Log
                 console.log('Connexion MySQL OK')
-                // DEV MODE
                 const Article = require('./article-model');
-                // tester qu'il creer les tables pour nous
                 sequelize.sync()
                     .then(() => console.log('Tables synchronisées'))
                     .catch(err => console.error(err))

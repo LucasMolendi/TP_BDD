@@ -10,18 +10,18 @@ class DaoArticleMongoose extends IdaoArticle {
         return await newArticle.save();
     };
 
-    async modified(article) {
+    async update(article) {
         const updatedArticle = await Article.findOneAndUpdate(
-            { uid: article.uid }, // 1. TROUVER (le filtre)
+            { uid: article.uid },
             {
-                $set: {           // 2. MODIFIER (les données)
+                $set: {
                     title: article.title,
                     desc: article.desc,
                     auth: article.auth,
                     imgPath: article.imgPath
                 }
             },
-            { new: true }         // 3. OPTIONS
+            { new: true }
         );
         return updatedArticle || null;
     }
@@ -30,17 +30,22 @@ class DaoArticleMongoose extends IdaoArticle {
     };
 
     async selectById(uidReceived) {
-        // On doit passer un OBJET à findOne pour spécifier le nom du champ
-        // { uid: "9ed1d218..." }
+        console.log("Recherche lancée pour UID :", uidReceived);
+
+        const testAny = await Article.findOne({});
+        console.log("Exemple d'article en base :", testAny ? testAny.uid : "AUCUN ARTICLE EN BASE !");
+
         const article = await Article.findOne({ uid: uidReceived });
+        console.log("Résultat final :", article ? "TROUVÉ" : "NON TROUVÉ");
+
         return article;
     };
+    async delete(articleOrUid) {
+        const targetUid = articleOrUid.uid ? articleOrUid.uid : articleOrUid;
 
-    async delete(article) {
+        console.log("Tentative de suppression de l'UID :", targetUid);
 
-        const deletedArticle = await Article.findOneAndDelete(
-            {uid: article.uid}
-        );
+        const deletedArticle = await Article.findOneAndDelete({ uid: targetUid });
 
         return deletedArticle || null;
     }

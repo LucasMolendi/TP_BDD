@@ -9,14 +9,14 @@ const Article = sequelize.define("Article", {
     },
     title: {
         type: DataTypes.STRING,
-        allowNull: false // C'est ici que Sequelize lève l'erreur si le champ est vide
+        allowNull: false
     },
-    // CORRECTION : "desc" au lieu de "descr" pour matcher Mongo et ton Service
+
     desc: {
         type: DataTypes.STRING,
         allowNull: true
     },
-    // CORRECTION : "auth" au lieu de "author" pour matcher ton Service
+    
     auth: {
         type: DataTypes.STRING,
         allowNull: true

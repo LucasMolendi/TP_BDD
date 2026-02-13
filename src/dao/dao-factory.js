@@ -5,7 +5,6 @@ module.exports = {
      * Retourne un IDAOArticle
      */
     getDAOArticle: () => {
-        // En amont on aura une config qui permet de savoir le quel on active
         // MODE : SEQUELIZE
         if (process.env.BDD_MODE === "sequelize") {
             const DAOArticleSequelize = require("./DAOArticleSequelize/daoarticles-sequelize");

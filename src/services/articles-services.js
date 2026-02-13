@@ -17,12 +17,6 @@ module.exports = {
         return makeService(201, "Article créé avec succès", newArticle);
     },
 
-    // Correction : On utilise bien 'uid' reçu en paramètre
-    updateArticle: async (uid, articleData) => {
-        const changedArticle = await DAOFactory.getDAOArticle().update(uid, articleData);
-        if (!changedArticle) return makeService(404, "Article introuvable");
-        return makeService(200, "Article modifié avec succès", changedArticle);
-    },
     getById: async (uid) => {
         // On demande au DAO de chercher spécifiquement par l'uid (le UUID)
         const article = await DAOFactory.getDAOArticle().selectById(uid);
@@ -39,10 +33,27 @@ module.exports = {
         return makeService(200, "Articles récupérés avec succès !", allArticles);
     },
 
-    // Correction : On remplace 'id' par 'uid' pour correspondre à l'argument
+
+    updateArticle: async (uidFromRoute, dataFromBody) => {
+        const articleToUpdate = {
+            uid: uidFromRoute,
+            ...dataFromBody
+        };
+
+        const result = await DAOFactory.getDAOArticle().modified(articleToUpdate);
+
+        if (!result) {
+            return makeService(404, "Mise à jour impossible : article introuvable.");
+        }
+        return makeService(200, "Article mis à jour !", result);
+    },
+
     deleteArticle: async (uid) => {
         const deleted = await DAOFactory.getDAOArticle().delete(uid);
-        if (!deleted) return makeService(404, "Article introuvable");
+
+        if (!deleted) {
+            return makeService(404, "Article introuvable");
+        }
         return makeService(200, "Article supprimé avec succès !", deleted);
     }
 };

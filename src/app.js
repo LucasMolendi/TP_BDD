@@ -20,7 +20,7 @@ else if (process.env.BDD_MODE === "mongodb") {
 
 // Injecter routes
 const articleRoutes = require("./articles/articles-routes");
-app.use(articleRoutes);
+app.use('/articles',articleRoutes);
 
 // Démarrer le serveur avec le port 3000
 app.listen(3000, () => {
