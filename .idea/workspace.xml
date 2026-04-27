@@ -5,8 +5,79 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="638d5f46-b1ef-4964-817e-dc9614ebd2bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/articles/articles-routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/uuid" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/uuid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/uuid.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/uuid.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/uuid.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/uuid.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/uuid/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/bin/uuid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-browser/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-browser/md5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-browser/nil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-browser/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-browser/regex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-browser/rng.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-browser/sha1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-browser/stringify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-browser/v1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-browser/v3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-browser/v35.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-browser/v4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-browser/v5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-browser/validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-browser/version.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-node/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-node/md5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-node/nil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-node/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-node/regex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-node/rng.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-node/sha1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-node/stringify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-node/v1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-node/v3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-node/v35.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-node/v4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-node/v5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-node/validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/esm-node/version.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/uuid/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/md5-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/md5.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/uuid/dist/md5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/nil.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/uuid/dist/nil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/uuid/dist/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/regex.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/uuid/dist/regex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/rng-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/rng.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/uuid/dist/rng.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/sha1-browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/sha1.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/uuid/dist/sha1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/stringify.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/uuid/dist/stringify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/umd/uuid.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/umd/uuidNIL.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/umd/uuidParse.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/umd/uuidStringify.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/umd/uuidValidate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/umd/uuidVersion.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/umd/uuidv1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/umd/uuidv3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/umd/uuidv4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/umd/uuidv5.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/uuid-bin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/uuid/dist/uuid-bin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/v1.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/uuid/dist/v1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/v3.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/uuid/dist/v3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/v35.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/uuid/dist/v35.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/v4.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/uuid/dist/v4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/v5.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/uuid/dist/v5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/uuid/dist/validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/dist/version.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/uuid/dist/version.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/uuid/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/wrapper.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,18 +100,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "LucasMolendi"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LucasMolendi&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/LucasMolendi/TP_BDD.git",
-    "accountId": "6885f931-b50d-4843-bc21-825d48f16d49"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LucasMolendi/TP_BDD.git&quot;,
+    &quot;accountId&quot;: &quot;6885f931-b50d-4843-bc21-825d48f16d49&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -49,29 +120,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Node.js.app.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "javascript.preferred.runtime.type.id": "node",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/SDV_cours/B2/TP_BDD",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.app.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/SDV_cours/B2/TP_BDD&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2025.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="app.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="src/app.js" working-dir="$PROJECT_DIR$">
       <EXTENSION ID="com.intellij.javascript.debugger.execution.StartBrowserRunConfigurationExtension">
@@ -96,6 +168,10 @@
       <updated>1770889423481</updated>
       <workItem from="1770889425095" duration="212000" />
       <workItem from="1770889660784" duration="4526000" />
+      <workItem from="1770917670340" duration="2118000" />
+      <workItem from="1770971401610" duration="10296000" />
+      <workItem from="1770993122444" duration="719000" />
+      <workItem from="1771001966345" duration="7919000" />
     </task>
     <servers />
   </component>
